@@ -17,13 +17,13 @@ personAge = "thirty" //data type is not changeable
 
 
 // We can define data type 
-let countryNames: Number
+let countryNames: number
 countryNames = 20
 
 
 
 //Multiple types
-let multipleTypes: String | Number
+let multipleTypes: string | number
 multipleTypes = "Hello", 20
 
 
@@ -35,19 +35,19 @@ anyArray = ["String", 20, true, [10, 20], {color: "red"}]
 
 
 //Array of specific multiple data types
-let multipleArrayTypes: (String | Number)[]
+let multipleArrayTypes: (string | number)[]
 multipleArrayTypes = ["Hello", 20, "Bangladesh", 99]
 
 
 
 //String array data types
-let stringArray: String[]
+let stringArray: string[]
 stringArray = ["Hello", "World"]
 
 
 
 //Number array data types
-let numberArray: Number[]
+let numberArray: number[]
 numberArray = [20, 65]
 
 
@@ -63,8 +63,8 @@ let user = {
 
 //But if we predefine object data then we have to put all data values
 let objectData: {
-    userName: String
-    userAge: Number
+    userName: string
+    userAge: number
     isAdmin: boolean
 }
 
@@ -82,10 +82,10 @@ objectData = {
 
 //Object conditional value, let's day userAge & phone is not required
 let objectData2: {
-    userName: String
-    userAge?: Number
+    userName: string
+    userAge?: number
     isAdmin: boolean
-    phone?: String
+    phone?: string
 }
 
 objectData2 = {
