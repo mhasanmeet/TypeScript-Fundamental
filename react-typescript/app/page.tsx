@@ -5,6 +5,7 @@ import SecondChild from '@/components/02-children-props/SecondChild'
 import PostList from '@/components/01-props/PostList'
 import Event from '@/components/03-event/page'
 import UseState from '@/components/04-useState/page'
+import UseContext from '@/components/05-useContext/page'
 
 export default function Home() {
   return (
@@ -24,7 +25,10 @@ export default function Home() {
 
 
     // useState
-    <UseState/>
+    // <UseState/>
 
+
+    // Context Api
+    <UseContext/>
   )
 }
