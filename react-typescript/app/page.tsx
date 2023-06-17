@@ -6,6 +6,7 @@ import PostList from '@/components/01-props/PostList'
 import Event from '@/components/03-event/page'
 import UseState from '@/components/04-useState/page'
 import UseContext from '@/components/05-useContext/page'
+import UseRef from '@/components/06-useRef/page'
 
 export default function Home() {
   return (
@@ -29,6 +30,10 @@ export default function Home() {
 
 
     // Context Api
-    <UseContext/>
+    // <UseContext/>
+
+
+    // useRef
+    <UseRef/>
   )
 }
